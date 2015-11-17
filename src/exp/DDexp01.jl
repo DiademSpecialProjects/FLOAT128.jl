@@ -1570,7 +1570,7 @@ const exp01approx = [
 function exp01(x::DD)
     isneg, ax = signbit(x.hi), abs(x)
     if ax.hi==zero(typeof(x.hi))
-       fx = DD_one
+       fx = dd_one
     else
        fx = exp01approx[ 1+floor(Int, ax.hi * 64) ](x)
        if isneg
