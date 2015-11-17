@@ -1,3 +1,7 @@
+#=
+   rational approximations to 128bit log(x) for x in [1..2]
+=#
+
 function log12_1of64num(x::DD)
     DD( 1.63619852391154, -3.71691078654232e-17)+
     (DD( 0.855480703816786, -1.34574787362349e-17)+
