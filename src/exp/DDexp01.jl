@@ -1,3 +1,7 @@
+#=
+   rational approximations to 128bit exp(x) for x in [0..1]
+=#
+
 function exp01_1of64num(x::DD)
     DD( 1.00390971115818, -8.99544700533372e-17)+
     (DD( 0.502133160139402, -4.16642088241337e-17)+
