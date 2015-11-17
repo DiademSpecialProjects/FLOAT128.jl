@@ -1571,10 +1571,10 @@ const log12approx = [
 # for x in 0.5..1..2
 function log12(x::DD)
     isneg, ax = signbit(x.hi), abs(x)
-    if ax==DD_one
-       fx = DD_zero
+    if ax == dd_one
+       fx = dd_zero
     elseif isneg
-       fx = DD_NaN
+       fx = dd_NaN
     else
        if x.hi < one(typeof(x.hi))
           ax = 1.0/ax
