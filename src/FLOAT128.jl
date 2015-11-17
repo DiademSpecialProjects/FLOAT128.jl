@@ -60,6 +60,7 @@ include("pow/DD.jl")
 # log, exp
 include("exp/DD.jl")
 include("exp/DDexp01.jl")
+include("exp/DDlog12.jl")
 include("exp/TD.jl")
 
 # trig, arctrig
