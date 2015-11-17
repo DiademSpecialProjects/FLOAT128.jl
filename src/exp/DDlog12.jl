@@ -91,3 +91,4 @@ function log12(x::DD)
     end
     fx
 end    
+=#
