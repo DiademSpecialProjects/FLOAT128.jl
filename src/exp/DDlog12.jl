@@ -1578,9 +1578,9 @@ function log12(x::DD)
     else
        if x.hi < one(typeof(x.hi))
           ax = 1.0/ax
-          fx = -log12approx[ 1+floor(Int, ax.hi * 64) ](ax)
+          fx = -log12approx[ 1+(floor(Int, ax.hi * 64)-64) ](ax)
        else
-          fx =  log12approx[ 1+floor(Int, ax.hi * 64) ](ax)
+          fx =  log12approx[ 1+(floor(Int, ax.hi * 64)-64) ](ax)
        end
     end
     fx
