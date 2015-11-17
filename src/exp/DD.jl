@@ -318,6 +318,9 @@ function exp_taylor(a::DD)
   ((((z6+z5)+z4)+z3)+z2)+z + one(DD)
 end
 
+#=
+replaced with DDexp01.jl
+
 function exp01(a::DD)
   if a.hi >= 0.5
     sqr(exp_taylor(divby2(a)))
@@ -325,6 +328,7 @@ function exp01(a::DD)
     exp_taylor(a)
   end
 end
+=#
 
 function expGT0(a::DD)
     if a.hi < 1e-34
