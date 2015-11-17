@@ -3,7 +3,7 @@
 =#
 
 
-
+#=
 const exp01approx = [
     exp01_01of64,
     exp01_02of64,
@@ -71,7 +71,8 @@ const exp01approx = [
     exp01_64of64,
     exp01_65of64
 ];
-
+=#
+#=
 # for x in -1..+1
 function exp01(x::DD)
     isneg, ax = signbit(x.hi), abs(x)
@@ -85,3 +86,4 @@ function exp01(x::DD)
     end
     fx
 end
+=#
