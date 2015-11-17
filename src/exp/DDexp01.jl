@@ -1498,7 +1498,7 @@ function exp01_65of64(x::DD)
     n / d
 end
 
-const exp01approx := [
+const exp01approx = [
     exp01_01of64,
     exp01_02of64,
     exp01_03of64,
