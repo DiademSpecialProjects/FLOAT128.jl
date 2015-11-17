@@ -1563,7 +1563,7 @@ const exp01approx := [
     exp01_62of64,
     exp01_63of64,
     exp01_64of64,
-    exp01_65of64,
+    exp01_65of64
 ];
 
 # for x in -1..+1
