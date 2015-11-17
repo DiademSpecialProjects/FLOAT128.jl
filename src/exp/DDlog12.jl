@@ -1500,7 +1500,7 @@ end
 
 
 
-const log12approx := [
+const log12approx = [
     log12_01of64,
     log12_02of64,
     log12_03of64,
