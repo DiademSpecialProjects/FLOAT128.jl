@@ -1,5 +1,5 @@
 # FLOAT128.jl  
-### *(work in progress -- incomplete)*
+#### *(an incomplete, early take on this)*
 100+ valid significand bits for elementary functions with conventionally small values.
 
 ### exports 
