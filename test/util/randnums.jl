@@ -21,7 +21,7 @@ wideBitgapDist = Geometric(0.235)
 
 baseBitgap() = rand(baseBitgapDist)
 wideBitgap() = rand(wideBitgapDist)
-
+=#
 function frval()
     s = rand()
     if (s < 0.5)
