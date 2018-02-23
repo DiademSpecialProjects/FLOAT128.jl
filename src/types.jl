@@ -1,4 +1,4 @@
-const SignedInt    - Union{Int128,Int64,Int32,Int16}
+const SignedInt    = Union{Int128,Int64,Int32,Int16}
 const SignedFloat  = Union{Float64,Float32,Float16}
 const SignedNumber = Union{SignedFloat, SignedInt}
 
