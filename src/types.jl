@@ -8,7 +8,7 @@ The pair are *presumed* to be in cannonical form, where they do not overlap: hiâ
 This representation is known as "double-double" (see refs.md)
 =#
 
-immutable DD <: Real
+struct DD <: Real
     hi::Float64
     lo::Float64
 end
