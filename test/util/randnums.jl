@@ -13,6 +13,7 @@ if !isdefined(:TD)
    TD = FLOAT128.TD
 end
 
+#=
 using(Distributions)
 
 baseBitgapDist = Geometric(0.435)
