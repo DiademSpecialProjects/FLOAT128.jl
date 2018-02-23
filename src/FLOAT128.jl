@@ -28,7 +28,7 @@ export Float128, clean, Float128s,
 # for development only
 fnTest, fnTest2, hilo, hml, nearest12
 
-using Printf, LinearAlgebra, Raandom
+using Printf, LinearAlgebra, Random
 fsnclude("config.jl")
 include("types.jl")
 
