@@ -21,6 +21,9 @@ import Base: convert, promote_rule,
              asinh, acosh, atanh, acsch, asech, acoth,
              string, show, showcompact, parse, hex
 
+using Printf, LinearAlgebra
+
+
 # export
 
 export Float128, clean, Float128s,
