@@ -29,7 +29,8 @@ export Float128, clean, Float128s,
 fnTest, fnTest2, hilo, hml, nearest12
 
 using Printf, LinearAlgebra, Random
-fsnclude("config.jl")
+
+include("config.jl")
 include("types.jl")
 
 # error-free transformations by number of args in & vals out
