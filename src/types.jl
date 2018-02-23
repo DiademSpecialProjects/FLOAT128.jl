@@ -91,7 +91,7 @@ for T in (:AbstractFloat, Integer)
 end
 =#
 
-typealias Float128 DD
+const Float128 = DD
 
 
 #=
