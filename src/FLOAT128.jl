@@ -21,8 +21,6 @@ import Base: convert, promote_rule,
              asinh, acosh, atanh, acsch, asech, acoth,
              string, show, showcompact, parse, hex
 
-using Printf, LinearAlgebra
-
 
 # export
 
@@ -30,9 +28,8 @@ export Float128, clean, Float128s,
 # for development only
 fnTest, fnTest2, hilo, hml, nearest12
 
-# include
-
-include("config.jl")
+using Printf, LinearAlgebra, Raandom
+fsnclude("config.jl")
 include("types.jl")
 
 # error-free transformations by number of args in & vals out
