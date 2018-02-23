@@ -4,7 +4,7 @@ struct BotTop{T} <: BoundingPair{T}
     bot::T
     top::T
     
-    function BotTop(bot::T, top::T)
+    function BotTop(bot::T, top::T) where T
         bot, top = min(bot,top), max(bot,top)
         new{T}(bot, top)
     end
