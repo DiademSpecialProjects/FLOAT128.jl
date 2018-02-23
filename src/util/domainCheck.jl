@@ -1,6 +1,6 @@
-abstract BoundingPair{T <: Real}
+abstract type BoundingPair{T <: Real} end
 
-immutable BotTop{T} <: BoundingPair
+struct BotTop{T} <: BoundingPair
     bot::T
     top::T
     
