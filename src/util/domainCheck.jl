@@ -1,6 +1,6 @@
-abstract type BoundingPair{T <: Real} end
+abstract type BoundingPair{T} end
 
-struct BotTop{T} <: BoundingPair
+struct BotTop{T} <: BoundingPair{T}
     bot::T
     top::T
     
